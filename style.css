@@ -1,0 +1,379 @@
+:root {
+  /* --border: 1px solid; */
+}
+body{
+  background: rgb(192, 189, 189);
+}
+.product-container {
+  width: 750px;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 1350px;
+  border: var(--border);
+}
+nav {
+  background: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  height: 3%;
+  border: var(--border);
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: var(--border);
+}
+.list {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: var(--border);
+}
+.list p {
+  margin-left: 8px;
+}
+.logo-img {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: var(--border);
+}
+.logo-img p {
+  margin-left: 5px;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.menu {
+  display: block;
+  width: 5%;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 28px;
+}
+  .fa-solid:hover{
+    background-color: rgb(42, 42, 42);
+    padding: 30px;
+    width: 28px;
+  }
+main {
+  display: flex;
+}
+.tolko {
+  width: 45%;
+  height: 400px;
+  background-image: url(./images/Group\ 6.png);
+}
+.tolko h1 {
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 70px;
+  color: #fff;
+}
+.tolko p {
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.tolko button {
+  width: 45%;
+  height: 50px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 30px;
+  background: grey;
+  color: #fff;
+  border-radius: 25px;
+}
+.tolko button:hover{
+  background: rgb(45, 56, 128);
+  color: black;
+}
+.flower {
+  width: 55%;
+  height: 400px;
+  background-image: url(./images/Rectangle.png);
+}
+.nuqta {
+  display: none;
+}
+section {
+  width: 100%;
+  border: var(--border);
+}
+section p {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 450px;
+  font-size: 20px;
+  border: var(--border);
+}
+footer {
+  display: flex;
+  width: 100%;
+  background-image: url(./images/Vector.png);
+  border: var(--border);
+}
+.box1 {
+  margin-left: 50px;
+  /* border: var(--border); */
+}
+.box2 {
+  margin-left: 50px;
+  /* border: var(--border);  */
+}
+.images {
+  border-radius: 10px;
+}
+.nashi {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.house {
+  width: 100%;
+  /* height: 250px; */
+  display: grid;
+  column-gap: 20px;
+  background: rgb(251, 209, 217);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--border);
+}
+.house button {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(42, 42, 42);
+  color: #fff;
+}
+.house button:hover{
+  background: rgb(45, 56, 128);
+  color: black;
+}
+.gul-img {
+  border-radius: 8px;
+}
+.home1 {
+  text-align: center;
+  border: var(--border);
+}
+.home2 {
+  text-align: center;
+  border: var(--border);
+}
+.home3 {
+  text-align: center;
+  border: var(--border);
+}
+.home4 {
+  text-align: center;
+  border: var(--border);
+}
+.house2 {
+  display: flex;
+  width: 100%;
+  border: var(--border);
+}
+.house-end{
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  background: #292933;
+  background-image: url(./images/image\ \(Traced\).svg);
+}
+.house-end p, h2{
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.ismlar{
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  width: 180px;
+  height: 45px;
+  text-align: center;
+  border-radius: 30px;
+}
+.house-end button{
+  width: 580px;
+  height: 50px;
+ background: #B69B89;
+ color: white;
+ font-size: 20px;
+  border-radius: 30px;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 400px) {
+  .product-container {
+    width: 100%;
+    /* background: rgb(174, 174, 174); */
+  }
+  .list {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .list p {
+    display: none;
+  }
+  .logo-img {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: var(--border);
+  }
+  .logo-img p {
+    width: 25px;
+    text-align: center;
+    font-size: 28px;
+    background: black;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 40%;
+    border: var(--border);
+  }
+  .logo {
+    width: 40%;
+  }
+  .menu {
+    display: block;
+    width: 10%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 28px;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+  .tolko {
+    width: 100%;
+    height: 330px;
+    text-align: center;
+  }
+  .tolko button {
+    margin-right: 50px;
+  }
+  .flower {
+    width: 100%;
+    height: 350px;
+  }
+  .nuqta {
+    display: block;
+    margin-top: 20px;
+  }
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+  section p {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    /* margin-top: 100px; */
+  }
+  .box2 {
+    display: none;
+  }
+  .box1 {
+    margin-left: 40px;
+  }
+  .box1 h3,
+  p {
+    text-align: center;
+    width: 300px;
+  }
+  .nashi {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .nashi p {
+    text-align: center;
+  }
+  .house {
+    display: flex;
+  }
+  .house h5 {
+    font-size: 10px;
+  }
+  .house p {
+    display: none;
+  }
+  .gul-img {
+    width: 100px;
+    height: 120px;
+  }
+  .home1 {
+    width: 40%;
+    height: 250px;
+  }
+  .home2 {
+    width: 40%;
+    height: 250px;
+  }
+  .home3 {
+    display: none;
+  }
+  .home4 {
+    display: none;
+  }
+  .house2{
+    flex-direction: column;
+    margin-top: 160px;
+  }
+
+  .ismlar{
+    display: flex none;
+    margin-left: 100px;
+    
+  }
+  .name{
+    margin-top: 10px;
+  }
+  .house-end{
+    height: 450px;
+  }
+  .house-end button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin-left: 75px;
+    font-size: 15px;
+  }
+}
